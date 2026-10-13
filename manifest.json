@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "kq.calc",
+  "name": "Calculator",
+  "version": "1.0.0",
+  "author": "Christian",
+  "license": "MIT",
+  "description": "Live calculator overlay powered by qalc: type an expression and see the answer as you type.",
+  "kinds": ["overlay"],
+  "keepLoaded": true,
+  "entryPoints": {
+    "overlay": "Calc.qml"
+  }
+}
