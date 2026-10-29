@@ -8,7 +8,7 @@ A live calculator overlay for the Omarchy 4 shell. Type an expression and the an
 
 ```bash
 omarchy pkg add libqalculate   # provides qalc, if you don't have it yet
-omarchy plugin add https://github.com/<you>/kq-calc.git --enable
+omarchy plugin add https://github.com/qristia/kq-calc.git --enable
 ```
 
 Plugins can't add keybindings, so bind one in `~/.config/hypr/bindings.lua`:
